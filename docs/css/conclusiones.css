@@ -67,11 +67,46 @@ section {
 /*----------------------------------- Contenido ----------------------------------*/
 
 /* Textos */
-h1, p {
+h1,
+p {
   color: white;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+}
+
+/* Responsive */
+
+@media (max-width: 576px) {
+  /* Barra de navegación */
+
+  nav {
+    gap: 1rem;
+  }
+
+  nav a {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  /* Contenedores */
+
+  .contenedorTexto {
+    width: 60%;
+    height: 50%;
+  }
+
+  /* Contenido */
+
+  /*  Textos  */
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    font-size: 17px;
+  }
 }

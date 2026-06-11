@@ -7,11 +7,6 @@ body {
 
 body {
   background: #110933;
-  /* background: url("/src/Img-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
 }
 
 nav {
@@ -41,6 +36,7 @@ a:hover {
 main {
   display: flex;
   align-items: center;
+  justify-content: baseline;
   flex-direction: column;
   width: 100%;
   height: auto;
@@ -118,4 +114,41 @@ a:hover {
 
 .bx {
   font-size: 55px;
+}
+
+/* Resposive */
+
+@media (max-width: 576px) {
+  /* Barra de navegación */
+
+  nav {
+    gap: 1rem;
+  }
+
+  nav a {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  /* Contenido */
+
+  /* Textos */
+
+  h2 {
+    text-align: center;
+  }
+
+  /* Imagenes */
+
+  img {
+    width: 100%;
+    height: 80%;
+  }
+
+  /* Boton */
+
+  .btnVolver {
+    margin-right: 0;
+    font-size: 20px;
+  }
 }

@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background: url("/src/img-background-conclusiones.png");
+  background: url("../src/img-background-conclusiones.png");
   background-color: black;
   background-size: cover;
   background-position: center;

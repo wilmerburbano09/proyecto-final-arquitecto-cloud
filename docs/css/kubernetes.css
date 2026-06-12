@@ -98,6 +98,11 @@ img:hover {
   transform: scale(1.1);
 }
 
+.codKubernetes {
+  width: 90%;
+  height: auto;
+}
+
 /* Resposive */
 
 @media (max-width: 576px) {
